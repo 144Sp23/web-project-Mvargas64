@@ -1,0 +1,124 @@
+body, header, nav, main, footer, h1, div, img, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color:gray;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: limegreen;
+  height: 190px;
+}
+
+header img {
+  margin: 0 ;
+}
+
+/* Style rules for navigation area */
+nav {
+  padding: 1%;
+  margin-bottom: 1%;
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+/*nav box*/
+nav li {
+  font-size: 1.5em;
+  font-family: 'Francois One', sans-serif;
+  border-top: 1px solid #000;
+}
+
+/*nav letters*/
+nav li a {
+  display: block;
+  color: #000;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+
+
+.mobile {
+  display: block;
+}
+
+.tablet-desktop {
+  display: none;
+}
+
+/* Style rules for main content */
+main {
+  background-color: gray;
+  padding: 2%;
+  font-size: 1.15em;
+  font-family: 'Roboto Slab', serif;
+}
+footer {
+    
+}
+footer p {
+  font-size: 0.75em;
+  text-align: center;
+  color: #fff;
+  padding: 0 1em;
+}
+
+footer p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 630px), print{        
+
+/* Tablet Viewport: show tablet-desktop class, hide mobile class */
+.tablet-desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+/* Tablet Viewport: Style rule for header */
+header {
+    position: static;
+    padding-bottom: 2%;
+}
+
+/* Tablet Viewport: Style rule for nav area */
+nav li {
+  
+    display: inline-block;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+nav li:last-child {
+     
+}
+
+nav li a {
+    padding: 0.1em 0.75em;
+}
+
+/* Tablet Viewport: Style rule for main content area */
+main ul {
+    margin: 0 0 4% 10%;
+}
+
