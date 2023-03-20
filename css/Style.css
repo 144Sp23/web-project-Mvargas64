@@ -1,124 +1,440 @@
-body, header, nav, main, footer, h1, div, img, ul, li {
-  margin: 0;
-  padding: 0;
-  border: 0;
+
+
+body, header, nav, main, footer, h1, div, img, ul, li,a{
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
+
+/* Style rules for body and images */
 body {
-  background-color:gray;
+    background-color: #000;
+    
 }
 
+
+     
 img {
-  max-width: 100%;
-  display: block;
+    max-width: 100%;
+    display: block;
 }
+@media screen and (min-width: 769px), print{
 
+/* Style rule for header*/
 header {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: limegreen;
-  height: 190px;
+   display:block;
+    width: 20%;
+    float: left;
 }
-
 header img {
-  margin: 0 ;
+
+
 }
 
 /* Style rules for navigation area */
 nav {
   padding: 1%;
-  margin-bottom: 1%;
+
 }
+
 nav ul {
-  list-style-type: none;
-  text-align: center;
+    list-style-type: none;
+  margin-top: 10em;
+    text-align: left;
+ 
 }
 
-/*nav box*/
 nav li {
-  font-size: 1.5em;
-  font-family: 'Francois One', sans-serif;
-  border-top: 1px solid #000;
+    display: inline-block;
+    font-size: 2.8em;
+    font-family: Verdana, Ariel, sans-serif;
+    font-weight: bold;
+    border-left: 5px solid lightseagreen;
+    
 }
 
-/*nav letters*/
 nav li a {
-  display: block;
-  color: #000;
-  padding: 0.5em 1em;
-  text-decoration: none;
+    display: block;
+    color: mediumvioletred;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
 }
 
-
-
-.mobile {
-  display: block;
-}
-
-.tablet-desktop {
-  display: none;
+nav li:first-child {
+  border-left: none;
 }
 
 /* Style rules for main content */
 main {
-  background-color: gray;
-  padding: 2%;
-  font-size: 1.15em;
-  font-family: 'Roboto Slab', serif;
+
+      clear:left;
+    background-color: darkgray;
+    padding-top:3%; 
+     padding-bottom:4%; 
+    font-size: 1.25em;
+
 }
-footer {
+
+#mainb {
+    display: inline-block;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background-color: ghostwhite;
+    padding: 1% 2%;
+}
+#maina {
+    display: inline-block;
+    margin-left: 2em;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background-color: ghostwhite;
+    padding: 1% 2%;
+}
+
+#homepic img{
+    display: inline-block;
+    width: 100%;
+    display: block;
+     object-fit: fill;
+
+
+}
+.container{
+      position: relative;
+
+}
+.top-right {
+  position: absolute;
+  top: 7px;
+  right: 19px;
+  color: mediumvioletred;
+   
+}
+.top-right h3{
+    font-size: 3em;
+   
+}
+.top-right h4{
+    text-align: right;
+    font-size: 1.25em;
+color: mediumvioletred;
+   
+}
+
+#Location {
+   
+    float: left ;
+    
+}
+.map{
+    border: 8px solid #000;
+}
+#picture{
+    position:relative;
+ border: 8px solid #fff;
+    float:right;
+  
+
+}
+.action{
+    font-size: 1em;
+    font-weight: bold;
+}
+#aboutuspic img{
+
+     border: 8px solid #fff;
+    float: right;
+    height: auto;
+    width: 500px;
+    margin-right: 2em;
+
+}
+#aboutUs h2{
+    color:lightseagreen;
+    
+}
+
+#aboutUs h3{
+    color:mediumvioletred;
+    
+}
+
+#Sandwishes,#Spagetti,#RobertosSpecial{
+    width: 20%;
+    float: left ;
+    margin: 0 6%;
+    
+
+}
+#Hours{
+  
+    padding-left: 1em;
+}
+#Hours h1{
+    border-bottom: 2px solid #000;
+    color:lightseagreen;
+
+}
+#Hours h3{
+  
+    color:mediumvioletred;
+
+}
+
+#Sandwishes ul{
+    margin-left: 2em;
+    color:#000;
+    
+}
+
+#Sandwishes h1{
+    color:lightseagreen;
+    
+}
+
+#Sandwishes h3{
+    color:mediumvioletred;
+    
+}
+
+#Spagetti ul{
+    margin-left: 2em;
+    color:#000;
+
+}
+
+#Spagetti h1{
+    color:lightseagreen;
+    
+}
+
+#Spagetti h3{
+    color:mediumvioletred;
+    
+}
+
+
+#RobertosSpecial ul{
+    margin-left: 2em;
+    color:#000;
+}
+
+#RobertosSpecial h1{
+    color:lightseagreen;
+    
+}
+
+#RobertosSpecial h3{
+    color:mediumvioletred;
     
 }
 footer p {
-  font-size: 0.75em;
-  text-align: center;
-  color: #fff;
-  padding: 0 1em;
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    padding: 1 2em;
+    margin-top: 1em;
+   
 }
 
 footer p a {
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+
+}
+}
+/* Style rules for mobile viewports */
+@media screen and (max-width: 769px), print{
+    
+header{
+ 
+  background-color: #000;
+  height: 240px;
+
+
+}
+header img {
+  margin: 0 auto;
+        
+        
+}
+    
+nav {
+  padding-top: 1%;
+      margin: 0 auto;
+
+
 }
 
-@media screen and (min-width: 630px), print{        
-
-/* Tablet Viewport: show tablet-desktop class, hide mobile class */
-.tablet-desktop {
-    display: block;
+nav ul {
+    list-style-type: none;
+  margin-top: 10em;
+    text-align: center;
+ 
 }
 
-.mobile {
-    display: none;
-}
-
-/* Tablet Viewport: Style rule for header */
-header {
-    position: static;
-    padding-bottom: 2%;
-}
-
-/* Tablet Viewport: Style rule for nav area */
 nav li {
-  
-    display: inline-block;
-    border-right: 2px solid #000;
-    border-left: 2px solid #000;
-    border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
-}
+    display: block;
+    font-size: 2.8em;
+    font-family: Verdana, Ariel, sans-serif;
+    font-weight: bold;
+    border-bottom: 5px solid lightseagreen;
 
-nav li:last-child {
-     
+
+    
 }
 
 nav li a {
-    padding: 0.1em 0.75em;
+    display: block;
+    color: mediumvioletred;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
 }
 
-/* Tablet Viewport: Style rule for main content area */
-main ul {
-    margin: 0 0 4% 10%;
+nav li:last-child {
+  border-bottom: none;
+    
+    }
+
+
+/* Style rules for footer content */
+footer p {
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    padding: 1 2em;
+    margin-top: 1em;
+   
 }
 
+footer p a {
+    color: #fff;
+    text-decoration: none;
+
+}
+    main {
+
+      clear:left;
+    background-color: darkgray;
+    padding-top:3%; 
+     padding-bottom:4%; 
+    font-size: 1.25em;
+
+}
+#mainb {
+    display: inline-block;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background-color: ghostwhite;
+    padding: 1% 2%;
+}
+    
+#maina {
+    display: block;
+   
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background-color: ghostwhite;
+    padding: 1% 2%;
+}
+    #Location {
+   
+   
+    
+}
+    .action{
+    font-size: 1em;
+    font-weight: bold;
+}
+.map {
+  border: 8px solid #000;
+  padding-left: 0.4em;
+  width: 95%;
+  height: 50%;
+}
+.top-right {
+  color: mediumvioletred;
+    
+}
+.top-right h3{
+    font-size: 2em;
+   
+}
+    
+.top-right h4{
+    text-align: right;
+    font-size: 1.25em;
+color: mediumvioletred;
+   
+}
+    
+#Hours h1{
+    color:lightseagreen;
+
+}
+#Hours h3{
+  
+    color:mediumvioletred;
+
+}
+
+#Sandwishes ul{ 
+    color:#000;
+    
+}
+
+#Sandwishes h1{
+    color:lightseagreen;
+    
+}
+
+#Sandwishes h3{
+    color:mediumvioletred;
+    
+}
+
+#Spagetti ul{
+    color:#000;
+
+}
+
+#Spagetti h1{
+    color:lightseagreen;
+    
+}
+
+#Spagetti h3{
+    color:mediumvioletred;
+    
+}
+
+
+#RobertosSpecial ul{
+    color:#000;
+}
+
+#RobertosSpecial h1{
+    color:lightseagreen;
+    
+}
+
+#RobertosSpecial h3{
+    color:mediumvioletred;
+    
+}
+
+  
+}
+#aboutUs h2{
+    color:lightseagreen;
+    
+}
+
+#aboutUs h3{
+    color:mediumvioletred;
+    
+}
+}
