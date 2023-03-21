@@ -355,6 +355,17 @@ footer p a {
     background-color: ghostwhite;
     padding: 1% 2%;
 }
+    
+     #mainc {
+     display: inline-block;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background-color: ghostwhite;
+    margin:0 5em;
+
+    padding: 1% 2%;
+}
+
     #Location {
    
    
