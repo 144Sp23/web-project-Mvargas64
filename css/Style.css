@@ -355,7 +355,7 @@ footer p a {
 }
 .map {
   border: 8px solid #000;
-  padding-left: 0.4em;
+  margin: 0% auto;
   width: 95%;
   height: 50%;
 }
@@ -432,6 +432,9 @@ color: #fff;
     color:mediumvioletred;
     
 }
+    #picture{
+  
+    margin:1% 1%;
 
   
 }
