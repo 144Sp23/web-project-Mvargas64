@@ -93,6 +93,16 @@ main {
     padding: 1% 1%;
 }
 
+    #mainc {
+     display: inline-block;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background-color: ghostwhite;
+    margin:0 5em;
+
+    padding: 1% 2%;
+}
+
 #homepic img{
     display: inline-block;
     width: 100%;
@@ -124,22 +134,24 @@ color: #fff;
 }
 
 #Location {
-   
     float: left ;
     
 }
 .map{
     border: 8px solid #000;
+    
 }
-#picture{
+#picture {
     position:relative;
- border: 8px solid #fff;
     float:right;
-    width: 500px;
-    margin-right: 3%;
-  
-
+    width: 470px;
+    margin-right: 5%;
 }
+    #picture img{
+    border: 8px solid #fff;
+
+    }
+    
 .action{
     font-size: 1em;
     font-weight: bold;
@@ -148,12 +160,11 @@ color: #fff;
         margin-left: 5%;
     }
 #aboutuspic img{
-display: none;
-     border: 8px solid #fff;
+display: inline-block;
     float: right;
     height: auto;
     width: 500px;
-    margin-right: 2em;
+    margin-right;
 
 }
 #aboutUs h2{
@@ -273,8 +284,9 @@ nav {
 
 nav ul {
     list-style-type: none;
-  margin-top: 10em;
+  margin-top: 3em;
     text-align: center;
+ 
  
 }
 
