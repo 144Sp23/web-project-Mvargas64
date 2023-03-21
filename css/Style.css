@@ -13,7 +13,6 @@ body {
     
 }
 
-
      
 img {
     max-width: 100%;
@@ -56,7 +55,7 @@ nav li {
 
 nav li a {
     display: block;
-    color: mediumvioletred;
+    color: #fff;
     text-align: center;
     padding: 0.5em 1em;
     text-decoration: none;
@@ -109,7 +108,7 @@ main {
   position: absolute;
   top: 7px;
   right: 19px;
-  color: mediumvioletred;
+  color: #fff;
    
 }
 .top-right h3{
@@ -119,7 +118,7 @@ main {
 .top-right h4{
     text-align: right;
     font-size: 1.25em;
-color: mediumvioletred;
+color: #fff;
    
 }
 
@@ -249,7 +248,7 @@ footer p a {
 @media screen and (max-width: 769px), print{
     
 header{
- 
+   
   background-color: #000;
   height: 240px;
 
@@ -262,7 +261,7 @@ header img {
 }
     
 nav {
-  padding-top: 1%;
+  padding-top: 20%;
       margin: 0 auto;
 
 
@@ -288,7 +287,7 @@ nav li {
 
 nav li a {
     display: block;
-    color: mediumvioletred;
+    color: #fff;
     text-align: center;
     padding: 0.5em 1em;
     text-decoration: none;
@@ -356,7 +355,7 @@ footer p a {
   height: 50%;
 }
 .top-right {
-  color: mediumvioletred;
+  color: #fff;
     
 }
 .top-right h3{
@@ -367,7 +366,7 @@ footer p a {
 .top-right h4{
     text-align: right;
     font-size: 1.25em;
-color: mediumvioletred;
+color: #fff;
    
 }
     
