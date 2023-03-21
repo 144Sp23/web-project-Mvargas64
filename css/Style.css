@@ -18,7 +18,7 @@ img {
     max-width: 100%;
     display: block;
 }
-@media screen and (min-width: 769px), print{
+
 
 /* Style rule for header*/
 header {
@@ -243,7 +243,7 @@ footer p a {
     text-decoration: none;
 
 }
-}
+
 /* Style rules for mobile viewports */
 @media screen and (max-width: 769px), print{
     
